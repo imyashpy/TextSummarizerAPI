@@ -24,24 +24,14 @@ A FastAPI backend that summarizes text using a Hugging Face transformer model an
 {
   "text": "Your text to summarize"
 }
-
----
-
-### **Step 2: Add the response example**
-Right after the request, add:
-
-```markdown
+```
 - **Response:**
 ```json
 {
   "original_text": "Your text to summarize",
   "summary": "The summarized text"
 }
-
----
-
-### **Step 3: Add the Get All Summaries endpoint**
-```markdown
+```
 ### 2. Get All Summaries
 - **URL:** `/summaries/`
 - **Method:** `GET`
@@ -51,16 +41,10 @@ Right after the request, add:
   {"id": 1, "original_text": "Text 1", "summary": "Summary 1"},
   {"id": 2, "original_text": "Text 2", "summary": "Summary 2"}
 ]
-
----
-
+```
 ## Future Improvements
 - Add a frontend UI to input text and display summaries.
 - Add Docker support for easy deployment.
 - Include authentication for secure API access.
-
-
-
-
 
 
