@@ -1,2 +1,24 @@
-# ai_text_summarizer
-AI-powered Text Summarizer using FastAPI and Hugging Face Transformers. Summarizes text inputs and stores results in MySQL asynchronously.
+# Text Summarizer API
+
+A FastAPI backend that summarizes text using a Hugging Face transformer model and stores results in a MySQL database.
+
+## Features
+- Summarize any text input.
+- Save original and summarized text in MySQL asynchronously.
+- Retrieve all past summaries via a simple API endpoint.
+- Works on GPU (if available) or CPU.
+
+## Tech Stack
+- **Backend:** FastAPI
+- **Database:** MySQL
+- **NLP Model:** Transformers (`sshleifer/distilbart-cnn-12-6`)
+- **Async DB library:** aiomysql
+
+## API Endpoints
+
+### 1. Summarize Text
+- **URL:** `/summarize/`
+- **Method:** `POST`
+- **Request body (JSON):**
+```json
+
