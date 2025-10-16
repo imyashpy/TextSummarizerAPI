@@ -21,4 +21,6 @@ A FastAPI backend that summarizes text using a Hugging Face transformer model an
 - **Method:** `POST`
 - **Request body (JSON):**
 ```json
-
+{
+  "text": "Your text to summarize"
+}
