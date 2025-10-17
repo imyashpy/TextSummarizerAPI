@@ -1,11 +1,13 @@
+# Python dependencies
 fastapi
 uvicorn
 mysql-connector-python
 pydantic
 
-
+# ------------------------------
 # Database setup instructions
-# 1. Create database
+# ------------------------------
+# 1. Create the database
 #    CREATE DATABASE text_summarizer;
 # 2. Use the database
 #    USE text_summarizer;
