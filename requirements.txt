@@ -2,3 +2,23 @@ fastapi
 uvicorn
 mysql-connector-python
 pydantic
+
+
+# Database setup instructions
+# 1. Create database
+#    CREATE DATABASE text_summarizer;
+# 2. Use the database
+#    USE text_summarizer;
+# 3. Create the summaries table
+#    CREATE TABLE summaries (
+#        id INT AUTO_INCREMENT PRIMARY KEY,
+#        original_text TEXT NOT NULL,
+#        summarized_text TEXT NOT NULL
+#    );
+# 4. Update DB_CONFIG in main.py if needed
+#    DB_CONFIG = {
+#        "host": "localhost",
+#        "user": "root",
+#        "password": "1234",
+#        "database": "text_summarizer"
+#    }
