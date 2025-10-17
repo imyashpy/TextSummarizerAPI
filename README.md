@@ -1,4 +1,4 @@
-##A lightweight FastAPI application that summarizes text and stores the summaries in a MySQL database.
+## A lightweight FastAPI application that summarizes text and stores the summaries in a MySQL database.
 
 ---
 
