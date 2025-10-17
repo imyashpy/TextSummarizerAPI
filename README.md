@@ -1,6 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9fd10610-3971-484e-b8b3-f664e6118099" /># Simple Text Summarizer API
-
-A lightweight FastAPI application that summarizes text and stores the summaries in a MySQL database.
+##A lightweight FastAPI application that summarizes text and stores the summaries in a MySQL database.
 
 ---
 
