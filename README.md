@@ -1,4 +1,4 @@
-## A lightweight FastAPI application that summarizes text and stores the summaries in a MySQL database.
+# A lightweight FastAPI application that summarizes text and stores the summaries in a MySQL database.
 
 ---
 
@@ -17,11 +17,3 @@
 - **Python Libraries:** `pydantic`, `mysql-connector-python`, `fastapi`  
 
 ---
-
-## Installation
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/imyashpy/TextSummarizerAPI.git
-   cd TextSummarizerAPI
-```
