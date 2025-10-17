@@ -1,4 +1,5 @@
 # Python dependencies
+
 fastapi
 uvicorn
 mysql-connector-python
